@@ -38,6 +38,7 @@ Example: Creating a Bell State
 The following code snippet from the main execution block shows how to use the simulator to create an entangled Bell state.
 
 python code:
+
 if __name__ == "__main__":
    
     my_circuit = QuantumCircuit(2)
