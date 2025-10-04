@@ -39,15 +39,15 @@ The following code snippet from the main execution block shows how to use the si
 
 python code:
 if __name__ == "__main__":
-    # Create a 2-qubit circuit
+   
     my_circuit = QuantumCircuit(2)
-    # Apply a Hadamard gate to the first qubit
+    
     my_circuit.apply_gate(H, 0)
-    # Apply a CNOT gate controlled by the first qubit
+   
     my_circuit.cx(0, 1)
-    # View the final entangled state
+    
     my_circuit.view()
-    # Measure the system
+   
     result = my_circuit.measure()
 
 Expected Result for my_simulator.py:
